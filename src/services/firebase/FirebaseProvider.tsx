@@ -7,15 +7,7 @@ import { Firestore } from 'firebase/firestore';
 import { FirebaseConfig, FirebaseServices, getFirebaseServices } from './config';
 
 // Default Firebase configuration
-const defaultFirebaseConfig: FirebaseConfig = {
-  apiKey: "AIzaSyAZjLMUSRzdVpsNFT9J_cLqt_84VpPlPMg",
-  authDomain: "test-2c2bb.firebaseapp.com",
-  projectId: "test-2c2bb",
-  storageBucket: "test-2c2bb.firebasestorage.app",
-  messagingSenderId: "870347866034",
-  appId: "1:870347866034:web:d6a95f0f64db146257eeab",
-  measurementId: "G-LKJ4J23B0Q"
-};
+
 
 // Create Firebase context
 interface FirebaseContextType {
