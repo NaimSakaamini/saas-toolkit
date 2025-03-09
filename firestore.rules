@@ -1,0 +1,72 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Allow authenticated users to read and write their own data
+    match /users/{userId} {
+      allow read, write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // Organization rules
+    match /organizations/{orgId} {
+      allow read: if request.auth != null && 
+        (exists(/databases/$(database)/documents/users/$(request.auth.uid)/organizations/$(orgId)) || 
+         get(/databases/$(database)/documents/organizations/$(orgId)).data.members[request.auth.uid] != null);
+      
+      allow write: if request.auth != null && 
+        (get(/databases/$(database)/documents/organizations/$(orgId)).data.ownerId == request.auth.uid || 
+         get(/databases/$(database)/documents/organizations/$(orgId)).data.members[request.auth.uid].role == 'admin');
+    }
+    
+    // Subscription rules
+    match /subscriptions/{subscriptionId} {
+      allow read: if request.auth != null && 
+        (get(/databases/$(database)/documents/organizations/$(resource.data.orgId)).data.ownerId == request.auth.uid || 
+         get(/databases/$(database)/documents/organizations/$(resource.data.orgId)).data.members[request.auth.uid].role == 'admin');
+      
+      allow write: if request.auth != null && 
+        get(/databases/$(database)/documents/organizations/$(request.data.orgId)).data.ownerId == request.auth.uid;
+    }
+    
+    // Invoice rules
+    match /invoices/{invoiceId} {
+      allow read: if request.auth != null && 
+        (get(/databases/$(database)/documents/organizations/$(resource.data.orgId)).data.ownerId == request.auth.uid || 
+         get(/databases/$(database)/documents/organizations/$(resource.data.orgId)).data.members[request.auth.uid].role == 'admin');
+      
+      allow write: if request.auth != null && 
+        get(/databases/$(database)/documents/organizations/$(request.data.orgId)).data.ownerId == request.auth.uid;
+    }
+    
+    // Payment method rules
+    match /paymentMethods/{paymentMethodId} {
+      allow read: if request.auth != null && 
+        (get(/databases/$(database)/documents/organizations/$(resource.data.orgId)).data.ownerId == request.auth.uid || 
+         get(/databases/$(database)/documents/organizations/$(resource.data.orgId)).data.members[request.auth.uid].role == 'admin');
+      
+      allow write: if request.auth != null && 
+        get(/databases/$(database)/documents/organizations/$(request.data.orgId)).data.ownerId == request.auth.uid;
+    }
+    
+    // Usage rules
+    match /usage/{usageId} {
+      allow read: if request.auth != null && 
+        (get(/databases/$(database)/documents/organizations/$(resource.data.orgId)).data.ownerId == request.auth.uid || 
+         get(/databases/$(database)/documents/organizations/$(resource.data.orgId)).data.members[request.auth.uid] != null);
+      
+      allow write: if request.auth != null && 
+        get(/databases/$(database)/documents/organizations/$(request.data.orgId)).data.ownerId == request.auth.uid;
+    }
+    
+    // Invitation rules
+    match /invitations/{invitationId} {
+      allow read: if request.auth != null && 
+        (resource.data.email == request.auth.token.email || 
+         get(/databases/$(database)/documents/organizations/$(resource.data.orgId)).data.ownerId == request.auth.uid || 
+         get(/databases/$(database)/documents/organizations/$(resource.data.orgId)).data.members[request.auth.uid].role == 'admin');
+      
+      allow write: if request.auth != null && 
+        (get(/databases/$(database)/documents/organizations/$(request.data.orgId)).data.ownerId == request.auth.uid || 
+         get(/databases/$(database)/documents/organizations/$(request.data.orgId)).data.members[request.auth.uid].role == 'admin');
+    }
+  }
+} 
