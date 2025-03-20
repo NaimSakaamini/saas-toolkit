@@ -80,8 +80,7 @@ export const createOrganization = async (
           organizations: arrayUnion({
             orgId,
             role: 'owner'
-          }),
-          currentOrganization: orgId
+          })
         });
       }
     }
