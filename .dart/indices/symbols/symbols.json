@@ -2943,6 +2943,20 @@
       }
     }
   ],
+  "src/app/profile/page.tsx": [
+    {
+      "name": "ProfilePage",
+      "kind": "function",
+      "path": "src/app/profile/page.tsx",
+      "location": {
+        "filePath": "src/app/profile/page.tsx",
+        "startLine": 10,
+        "endLine": 10,
+        "startCharacter": 1,
+        "endCharacter": 12
+      }
+    }
+  ],
   "src/app/pricing/page.tsx": [
     {
       "name": "PricingPage",
@@ -2978,20 +2992,6 @@
         "endLine": 80,
         "startCharacter": 1,
         "endCharacter": 9
-      }
-    }
-  ],
-  "src/app/profile/page.tsx": [
-    {
-      "name": "ProfilePage",
-      "kind": "function",
-      "path": "src/app/profile/page.tsx",
-      "location": {
-        "filePath": "src/app/profile/page.tsx",
-        "startLine": 10,
-        "endLine": 10,
-        "startCharacter": 1,
-        "endCharacter": 12
       }
     }
   ],
@@ -3199,32 +3199,6 @@
       }
     }
   ],
-  "src/app/auth/register/page.tsx": [
-    {
-      "name": "RegisterPage",
-      "kind": "function",
-      "path": "src/app/auth/register/page.tsx",
-      "location": {
-        "filePath": "src/app/auth/register/page.tsx",
-        "startLine": 9,
-        "endLine": 9,
-        "startCharacter": 1,
-        "endCharacter": 13
-      }
-    },
-    {
-      "name": "validateForm",
-      "kind": "function",
-      "path": "src/app/auth/register/page.tsx",
-      "location": {
-        "filePath": "src/app/auth/register/page.tsx",
-        "startLine": 21,
-        "endLine": 21,
-        "startCharacter": 1,
-        "endCharacter": 13
-      }
-    }
-  ],
   "src/app/auth/login/page.tsx": [
     {
       "name": "LoginPage",
@@ -3246,6 +3220,32 @@
         "filePath": "src/app/auth/login/page.tsx",
         "startLine": 18,
         "endLine": 18,
+        "startCharacter": 1,
+        "endCharacter": 13
+      }
+    }
+  ],
+  "src/app/auth/register/page.tsx": [
+    {
+      "name": "RegisterPage",
+      "kind": "function",
+      "path": "src/app/auth/register/page.tsx",
+      "location": {
+        "filePath": "src/app/auth/register/page.tsx",
+        "startLine": 9,
+        "endLine": 9,
+        "startCharacter": 1,
+        "endCharacter": 13
+      }
+    },
+    {
+      "name": "validateForm",
+      "kind": "function",
+      "path": "src/app/auth/register/page.tsx",
+      "location": {
+        "filePath": "src/app/auth/register/page.tsx",
+        "startLine": 21,
+        "endLine": 21,
         "startCharacter": 1,
         "endCharacter": 13
       }
