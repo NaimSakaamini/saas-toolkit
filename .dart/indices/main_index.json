@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2025-03-27T15:07:23.286Z",
+  "updatedAt": "2025-03-27T15:08:53.579Z",
   "fileCount": 55,
   "files": {
     "next.config.ts": {
@@ -203,12 +203,12 @@
       "size": 8695,
       "language": "tsx"
     },
-    "src/app/dashboard/settings/organization/page.tsx": {
-      "size": 15443,
-      "language": "tsx"
-    },
     "src/app/dashboard/settings/notifications/page.tsx": {
       "size": 7382,
+      "language": "tsx"
+    },
+    "src/app/dashboard/settings/organization/page.tsx": {
+      "size": 15443,
       "language": "tsx"
     },
     "src/app/dashboard/settings/billing/page.tsx": {
