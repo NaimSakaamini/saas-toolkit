@@ -1,0 +1,285 @@
+{
+  "fileCount": 55,
+  "filesByType": {
+    "ts": 7,
+    "js": 1,
+    "tsx": 47
+  },
+  "files": {
+    "next.config.ts": {
+      "path": "next.config.ts",
+      "size": 133,
+      "type": "ts"
+    },
+    "scripts/setup-subscription-collections.js": {
+      "path": "scripts/setup-subscription-collections.js",
+      "size": 3838,
+      "type": "js"
+    },
+    "src/app/page.tsx": {
+      "path": "src/app/page.tsx",
+      "size": 695,
+      "type": "tsx"
+    },
+    "src/app/layout.tsx": {
+      "path": "src/app/layout.tsx",
+      "size": 1485,
+      "type": "tsx"
+    },
+    "src/services/subscription/subscriptionService.ts": {
+      "path": "src/services/subscription/subscriptionService.ts",
+      "size": 15340,
+      "type": "ts"
+    },
+    "src/services/subscription/SubscriptionProvider.tsx": {
+      "path": "src/services/subscription/SubscriptionProvider.tsx",
+      "size": 11087,
+      "type": "tsx"
+    },
+    "src/services/organization/organizationService.ts": {
+      "path": "src/services/organization/organizationService.ts",
+      "size": 10052,
+      "type": "ts"
+    },
+    "src/services/organization/OrganizationProvider.tsx": {
+      "path": "src/services/organization/OrganizationProvider.tsx",
+      "size": 8502,
+      "type": "tsx"
+    },
+    "src/services/invitation/invitationService.ts": {
+      "path": "src/services/invitation/invitationService.ts",
+      "size": 10658,
+      "type": "ts"
+    },
+    "src/services/invitation/InvitationProvider.tsx": {
+      "path": "src/services/invitation/InvitationProvider.tsx",
+      "size": 8254,
+      "type": "tsx"
+    },
+    "src/services/firebase/config.ts": {
+      "path": "src/services/firebase/config.ts",
+      "size": 4050,
+      "type": "ts"
+    },
+    "src/services/firebase/FirebaseProvider.tsx": {
+      "path": "src/services/firebase/FirebaseProvider.tsx",
+      "size": 1561,
+      "type": "tsx"
+    },
+    "src/services/auth/sessionService.ts": {
+      "path": "src/services/auth/sessionService.ts",
+      "size": 7797,
+      "type": "ts"
+    },
+    "src/services/auth/authService.ts": {
+      "path": "src/services/auth/authService.ts",
+      "size": 6837,
+      "type": "ts"
+    },
+    "src/services/auth/ProtectedRoute.tsx": {
+      "path": "src/services/auth/ProtectedRoute.tsx",
+      "size": 1078,
+      "type": "tsx"
+    },
+    "src/services/auth/AuthProvider.tsx": {
+      "path": "src/services/auth/AuthProvider.tsx",
+      "size": 8830,
+      "type": "tsx"
+    },
+    "src/components/ui/ThemeProvider.tsx": {
+      "path": "src/components/ui/ThemeProvider.tsx",
+      "size": 2702,
+      "type": "tsx"
+    },
+    "src/components/ui/SessionManager.tsx": {
+      "path": "src/components/ui/SessionManager.tsx",
+      "size": 4287,
+      "type": "tsx"
+    },
+    "src/components/ui/MantineProvider.tsx": {
+      "path": "src/components/ui/MantineProvider.tsx",
+      "size": 776,
+      "type": "tsx"
+    },
+    "src/components/ui/ClientThemeProvider.tsx": {
+      "path": "src/components/ui/ClientThemeProvider.tsx",
+      "size": 807,
+      "type": "tsx"
+    },
+    "src/components/subscription/UsageDisplay.tsx": {
+      "path": "src/components/subscription/UsageDisplay.tsx",
+      "size": 4715,
+      "type": "tsx"
+    },
+    "src/components/subscription/SubscriptionManager.tsx": {
+      "path": "src/components/subscription/SubscriptionManager.tsx",
+      "size": 13780,
+      "type": "tsx"
+    },
+    "src/components/subscription/PaymentMethodManager.tsx": {
+      "path": "src/components/subscription/PaymentMethodManager.tsx",
+      "size": 14006,
+      "type": "tsx"
+    },
+    "src/components/subscription/InvoiceList.tsx": {
+      "path": "src/components/subscription/InvoiceList.tsx",
+      "size": 5573,
+      "type": "tsx"
+    },
+    "src/components/organization/OrganizationSelector.tsx": {
+      "path": "src/components/organization/OrganizationSelector.tsx",
+      "size": 3196,
+      "type": "tsx"
+    },
+    "src/components/organization/CreateOrganizationForm.tsx": {
+      "path": "src/components/organization/CreateOrganizationForm.tsx",
+      "size": 3210,
+      "type": "tsx"
+    },
+    "src/components/layout/AppLayout.tsx": {
+      "path": "src/components/layout/AppLayout.tsx",
+      "size": 4928,
+      "type": "tsx"
+    },
+    "src/components/landing/PricingTable.tsx": {
+      "path": "src/components/landing/PricingTable.tsx",
+      "size": 7953,
+      "type": "tsx"
+    },
+    "src/components/landing/PricingSection.tsx": {
+      "path": "src/components/landing/PricingSection.tsx",
+      "size": 4244,
+      "type": "tsx"
+    },
+    "src/components/landing/Hero.tsx": {
+      "path": "src/components/landing/Hero.tsx",
+      "size": 5607,
+      "type": "tsx"
+    },
+    "src/components/landing/Footer.tsx": {
+      "path": "src/components/landing/Footer.tsx",
+      "size": 4012,
+      "type": "tsx"
+    },
+    "src/components/landing/FeatureShowcase.tsx": {
+      "path": "src/components/landing/FeatureShowcase.tsx",
+      "size": 5897,
+      "type": "tsx"
+    },
+    "src/components/landing/FaqAccordion.tsx": {
+      "path": "src/components/landing/FaqAccordion.tsx",
+      "size": 3342,
+      "type": "tsx"
+    },
+    "src/components/landing/CallToAction.tsx": {
+      "path": "src/components/landing/CallToAction.tsx",
+      "size": 2809,
+      "type": "tsx"
+    },
+    "src/components/invitation/InviteUserForm.tsx": {
+      "path": "src/components/invitation/InviteUserForm.tsx",
+      "size": 3282,
+      "type": "tsx"
+    },
+    "src/components/invitation/InvitationList.tsx": {
+      "path": "src/components/invitation/InvitationList.tsx",
+      "size": 6399,
+      "type": "tsx"
+    },
+    "src/components/dashboard/SubscriptionWidget.tsx": {
+      "path": "src/components/dashboard/SubscriptionWidget.tsx",
+      "size": 5337,
+      "type": "tsx"
+    },
+    "src/components/dashboard/DashboardLayout.tsx": {
+      "path": "src/components/dashboard/DashboardLayout.tsx",
+      "size": 12490,
+      "type": "tsx"
+    },
+    "src/app/profile/page.tsx": {
+      "path": "src/app/profile/page.tsx",
+      "size": 5098,
+      "type": "tsx"
+    },
+    "src/app/pricing/page.tsx": {
+      "path": "src/app/pricing/page.tsx",
+      "size": 5790,
+      "type": "tsx"
+    },
+    "src/app/dashboard/page.tsx": {
+      "path": "src/app/dashboard/page.tsx",
+      "size": 7143,
+      "type": "tsx"
+    },
+    "src/app/checkout/page.tsx": {
+      "path": "src/app/checkout/page.tsx",
+      "size": 15000,
+      "type": "tsx"
+    },
+    "src/app/profile/sessions/page.tsx": {
+      "path": "src/app/profile/sessions/page.tsx",
+      "size": 742,
+      "type": "tsx"
+    },
+    "src/app/invitation/[token]/page.tsx": {
+      "path": "src/app/invitation/[token]/page.tsx",
+      "size": 6718,
+      "type": "tsx"
+    },
+    "src/app/dashboard/settings/page.tsx": {
+      "path": "src/app/dashboard/settings/page.tsx",
+      "size": 2738,
+      "type": "tsx"
+    },
+    "src/app/dashboard/invitations/page.tsx": {
+      "path": "src/app/dashboard/invitations/page.tsx",
+      "size": 1462,
+      "type": "tsx"
+    },
+    "src/app/auth/register/page.tsx": {
+      "path": "src/app/auth/register/page.tsx",
+      "size": 5246,
+      "type": "tsx"
+    },
+    "src/app/auth/login/page.tsx": {
+      "path": "src/app/auth/login/page.tsx",
+      "size": 3963,
+      "type": "tsx"
+    },
+    "src/app/auth/forgot-password/page.tsx": {
+      "path": "src/app/auth/forgot-password/page.tsx",
+      "size": 3170,
+      "type": "tsx"
+    },
+    "src/app/dashboard/settings/profile/page.tsx": {
+      "path": "src/app/dashboard/settings/profile/page.tsx",
+      "size": 8695,
+      "type": "tsx"
+    },
+    "src/app/dashboard/settings/organization/page.tsx": {
+      "path": "src/app/dashboard/settings/organization/page.tsx",
+      "size": 15443,
+      "type": "tsx"
+    },
+    "src/app/dashboard/settings/notifications/page.tsx": {
+      "path": "src/app/dashboard/settings/notifications/page.tsx",
+      "size": 7382,
+      "type": "tsx"
+    },
+    "src/app/dashboard/settings/billing/page.tsx": {
+      "path": "src/app/dashboard/settings/billing/page.tsx",
+      "size": 2269,
+      "type": "tsx"
+    },
+    "src/app/dashboard/organizations/new/page.tsx": {
+      "path": "src/app/dashboard/organizations/new/page.tsx",
+      "size": 1115,
+      "type": "tsx"
+    },
+    "src/app/dashboard/settings/billing/payment-methods/page.tsx": {
+      "path": "src/app/dashboard/settings/billing/payment-methods/page.tsx",
+      "size": 1264,
+      "type": "tsx"
+    }
+  }
+}
