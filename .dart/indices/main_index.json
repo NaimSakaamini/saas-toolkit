@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2025-03-27T21:42:32.296Z",
+  "updatedAt": "2025-03-27T21:49:30.032Z",
   "fileCount": 55,
   "files": {
     "next.config.ts": {
@@ -155,12 +155,12 @@
       "size": 12490,
       "language": "tsx"
     },
-    "src/app/profile/page.tsx": {
-      "size": 5098,
-      "language": "tsx"
-    },
     "src/app/pricing/page.tsx": {
       "size": 5790,
+      "language": "tsx"
+    },
+    "src/app/profile/page.tsx": {
+      "size": 5098,
       "language": "tsx"
     },
     "src/app/dashboard/page.tsx": {
