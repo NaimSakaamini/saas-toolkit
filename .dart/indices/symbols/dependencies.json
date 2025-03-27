@@ -1470,74 +1470,6 @@
       }
     }
   ],
-  "src/app/profile/page.tsx": [
-    {
-      "name": "react",
-      "source": "src/app/profile/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 3,
-        "endLine": 3,
-        "startCharacter": 15,
-        "endCharacter": 47
-      }
-    },
-    {
-      "name": "@/components/layout/AppLayout",
-      "source": "src/app/profile/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 4,
-        "endLine": 4,
-        "startCharacter": 49,
-        "endCharacter": 106
-      }
-    },
-    {
-      "name": "@mantine/core",
-      "source": "src/app/profile/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 5,
-        "endLine": 5,
-        "startCharacter": 108,
-        "endCharacter": 216
-      }
-    },
-    {
-      "name": "@/services/auth/ProtectedRoute",
-      "source": "src/app/profile/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 6,
-        "endLine": 6,
-        "startCharacter": 218,
-        "endCharacter": 281
-      }
-    },
-    {
-      "name": "@/services/auth/AuthProvider",
-      "source": "src/app/profile/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 7,
-        "endLine": 7,
-        "startCharacter": 283,
-        "endCharacter": 337
-      }
-    },
-    {
-      "name": "next/link",
-      "source": "src/app/profile/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 8,
-        "endLine": 8,
-        "startCharacter": 339,
-        "endCharacter": 367
-      }
-    }
-  ],
   "src/app/pricing/page.tsx": [
     {
       "name": "next/navigation",
@@ -1614,6 +1546,74 @@
         "endLine": 26,
         "startCharacter": 581,
         "endCharacter": 638
+      }
+    }
+  ],
+  "src/app/profile/page.tsx": [
+    {
+      "name": "react",
+      "source": "src/app/profile/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 3,
+        "endLine": 3,
+        "startCharacter": 15,
+        "endCharacter": 47
+      }
+    },
+    {
+      "name": "@/components/layout/AppLayout",
+      "source": "src/app/profile/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 4,
+        "endLine": 4,
+        "startCharacter": 49,
+        "endCharacter": 106
+      }
+    },
+    {
+      "name": "@mantine/core",
+      "source": "src/app/profile/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 5,
+        "endLine": 5,
+        "startCharacter": 108,
+        "endCharacter": 216
+      }
+    },
+    {
+      "name": "@/services/auth/ProtectedRoute",
+      "source": "src/app/profile/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 6,
+        "endLine": 6,
+        "startCharacter": 218,
+        "endCharacter": 281
+      }
+    },
+    {
+      "name": "@/services/auth/AuthProvider",
+      "source": "src/app/profile/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 7,
+        "endLine": 7,
+        "startCharacter": 283,
+        "endCharacter": 337
+      }
+    },
+    {
+      "name": "next/link",
+      "source": "src/app/profile/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 8,
+        "endLine": 8,
+        "startCharacter": 339,
+        "endCharacter": 367
       }
     }
   ],
