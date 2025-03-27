@@ -2264,6 +2264,63 @@
       }
     }
   ],
+  "src/app/dashboard/settings/notifications/page.tsx": [
+    {
+      "name": "react",
+      "source": "src/app/dashboard/settings/notifications/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 3,
+        "endLine": 3,
+        "startCharacter": 15,
+        "endCharacter": 47
+      }
+    },
+    {
+      "name": "@mantine/core",
+      "source": "src/app/dashboard/settings/notifications/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 4,
+        "endLine": 4,
+        "startCharacter": 49,
+        "endCharacter": 235
+      }
+    },
+    {
+      "name": "@tabler/icons-react",
+      "source": "src/app/dashboard/settings/notifications/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 20,
+        "endLine": 20,
+        "startCharacter": 237,
+        "endCharacter": 335
+      }
+    },
+    {
+      "name": "@/components/dashboard/DashboardLayout",
+      "source": "src/app/dashboard/settings/notifications/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 21,
+        "endLine": 21,
+        "startCharacter": 337,
+        "endCharacter": 409
+      }
+    },
+    {
+      "name": "@/services/auth/ProtectedRoute",
+      "source": "src/app/dashboard/settings/notifications/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 22,
+        "endLine": 22,
+        "startCharacter": 411,
+        "endCharacter": 474
+      }
+    }
+  ],
   "src/app/dashboard/settings/organization/page.tsx": [
     {
       "name": "react",
@@ -2384,63 +2441,6 @@
         "endLine": 47,
         "startCharacter": 1060,
         "endCharacter": 1131
-      }
-    }
-  ],
-  "src/app/dashboard/settings/notifications/page.tsx": [
-    {
-      "name": "react",
-      "source": "src/app/dashboard/settings/notifications/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 3,
-        "endLine": 3,
-        "startCharacter": 15,
-        "endCharacter": 47
-      }
-    },
-    {
-      "name": "@mantine/core",
-      "source": "src/app/dashboard/settings/notifications/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 4,
-        "endLine": 4,
-        "startCharacter": 49,
-        "endCharacter": 235
-      }
-    },
-    {
-      "name": "@tabler/icons-react",
-      "source": "src/app/dashboard/settings/notifications/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 20,
-        "endLine": 20,
-        "startCharacter": 237,
-        "endCharacter": 335
-      }
-    },
-    {
-      "name": "@/components/dashboard/DashboardLayout",
-      "source": "src/app/dashboard/settings/notifications/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 21,
-        "endLine": 21,
-        "startCharacter": 337,
-        "endCharacter": 409
-      }
-    },
-    {
-      "name": "@/services/auth/ProtectedRoute",
-      "source": "src/app/dashboard/settings/notifications/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 22,
-        "endLine": 22,
-        "startCharacter": 411,
-        "endCharacter": 474
       }
     }
   ],
