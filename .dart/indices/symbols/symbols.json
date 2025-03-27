@@ -3291,6 +3291,56 @@
       }
     }
   ],
+  "src/app/dashboard/settings/organization/page.tsx": [
+    {
+      "name": "OrganizationSettingsPage",
+      "kind": "function",
+      "path": "src/app/dashboard/settings/organization/page.tsx",
+      "location": {
+        "filePath": "src/app/dashboard/settings/organization/page.tsx",
+        "startLine": 49,
+        "endLine": 49,
+        "startCharacter": 1,
+        "endCharacter": 25
+      }
+    },
+    {
+      "name": "formatDate",
+      "kind": "function",
+      "path": "src/app/dashboard/settings/organization/page.tsx",
+      "location": {
+        "filePath": "src/app/dashboard/settings/organization/page.tsx",
+        "startLine": 162,
+        "endLine": 162,
+        "startCharacter": 1,
+        "endCharacter": 11
+      }
+    },
+    {
+      "name": "getRoleBadgeColor",
+      "kind": "function",
+      "path": "src/app/dashboard/settings/organization/page.tsx",
+      "location": {
+        "filePath": "src/app/dashboard/settings/organization/page.tsx",
+        "startLine": 174,
+        "endLine": 174,
+        "startCharacter": 1,
+        "endCharacter": 18
+      }
+    },
+    {
+      "name": "handleInviteSuccess",
+      "kind": "function",
+      "path": "src/app/dashboard/settings/organization/page.tsx",
+      "location": {
+        "filePath": "src/app/dashboard/settings/organization/page.tsx",
+        "startLine": 197,
+        "endLine": 197,
+        "startCharacter": 1,
+        "endCharacter": 20
+      }
+    }
+  ],
   "src/app/dashboard/settings/notifications/page.tsx": [
     {
       "name": "NotificationChannel",
@@ -3374,56 +3424,6 @@
         "filePath": "src/app/dashboard/settings/billing/page.tsx",
         "startLine": 25,
         "endLine": 25,
-        "startCharacter": 1,
-        "endCharacter": 20
-      }
-    }
-  ],
-  "src/app/dashboard/settings/organization/page.tsx": [
-    {
-      "name": "OrganizationSettingsPage",
-      "kind": "function",
-      "path": "src/app/dashboard/settings/organization/page.tsx",
-      "location": {
-        "filePath": "src/app/dashboard/settings/organization/page.tsx",
-        "startLine": 49,
-        "endLine": 49,
-        "startCharacter": 1,
-        "endCharacter": 25
-      }
-    },
-    {
-      "name": "formatDate",
-      "kind": "function",
-      "path": "src/app/dashboard/settings/organization/page.tsx",
-      "location": {
-        "filePath": "src/app/dashboard/settings/organization/page.tsx",
-        "startLine": 162,
-        "endLine": 162,
-        "startCharacter": 1,
-        "endCharacter": 11
-      }
-    },
-    {
-      "name": "getRoleBadgeColor",
-      "kind": "function",
-      "path": "src/app/dashboard/settings/organization/page.tsx",
-      "location": {
-        "filePath": "src/app/dashboard/settings/organization/page.tsx",
-        "startLine": 174,
-        "endLine": 174,
-        "startCharacter": 1,
-        "endCharacter": 18
-      }
-    },
-    {
-      "name": "handleInviteSuccess",
-      "kind": "function",
-      "path": "src/app/dashboard/settings/organization/page.tsx",
-      "location": {
-        "filePath": "src/app/dashboard/settings/organization/page.tsx",
-        "startLine": 197,
-        "endLine": 197,
         "startCharacter": 1,
         "endCharacter": 20
       }
