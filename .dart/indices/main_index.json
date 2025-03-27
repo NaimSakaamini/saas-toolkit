@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2025-03-27T21:50:29.274Z",
+  "updatedAt": "2025-03-27T22:15:55.992Z",
   "fileCount": 55,
   "files": {
     "next.config.ts": {
@@ -187,12 +187,12 @@
       "size": 1462,
       "language": "tsx"
     },
-    "src/app/auth/login/page.tsx": {
-      "size": 3963,
-      "language": "tsx"
-    },
     "src/app/auth/register/page.tsx": {
       "size": 5246,
+      "language": "tsx"
+    },
+    "src/app/auth/login/page.tsx": {
+      "size": 3963,
       "language": "tsx"
     },
     "src/app/auth/forgot-password/page.tsx": {
@@ -229,6 +229,6 @@
     "js": 1,
     "tsx": 47
   },
-  "symbolCount": 280,
+  "symbolCount": 0,
   "dependencyCount": 235
 }
