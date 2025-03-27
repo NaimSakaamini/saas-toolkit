@@ -226,14 +226,14 @@
       "size": 6718,
       "type": "tsx"
     },
-    "src/app/dashboard/settings/page.tsx": {
-      "path": "src/app/dashboard/settings/page.tsx",
-      "size": 2738,
-      "type": "tsx"
-    },
     "src/app/dashboard/invitations/page.tsx": {
       "path": "src/app/dashboard/invitations/page.tsx",
       "size": 1462,
+      "type": "tsx"
+    },
+    "src/app/dashboard/settings/page.tsx": {
+      "path": "src/app/dashboard/settings/page.tsx",
+      "size": 2738,
       "type": "tsx"
     },
     "src/app/auth/register/page.tsx": {
