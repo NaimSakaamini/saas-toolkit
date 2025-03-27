@@ -2036,63 +2036,6 @@
       }
     }
   ],
-  "src/app/auth/login/page.tsx": [
-    {
-      "name": "react",
-      "source": "src/app/auth/login/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 3,
-        "endLine": 3,
-        "startCharacter": 15,
-        "endCharacter": 47
-      }
-    },
-    {
-      "name": "@mantine/core",
-      "source": "src/app/auth/login/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 4,
-        "endLine": 4,
-        "startCharacter": 49,
-        "endCharacter": 181
-      }
-    },
-    {
-      "name": "next/navigation",
-      "source": "src/app/auth/login/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 5,
-        "endLine": 5,
-        "startCharacter": 183,
-        "endCharacter": 226
-      }
-    },
-    {
-      "name": "next/link",
-      "source": "src/app/auth/login/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 6,
-        "endLine": 6,
-        "startCharacter": 228,
-        "endCharacter": 256
-      }
-    },
-    {
-      "name": "@/services/auth/AuthProvider",
-      "source": "src/app/auth/login/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 7,
-        "endLine": 7,
-        "startCharacter": 258,
-        "endCharacter": 312
-      }
-    }
-  ],
   "src/app/auth/register/page.tsx": [
     {
       "name": "react",
@@ -2147,6 +2090,63 @@
         "endLine": 7,
         "startCharacter": 268,
         "endCharacter": 322
+      }
+    }
+  ],
+  "src/app/auth/login/page.tsx": [
+    {
+      "name": "react",
+      "source": "src/app/auth/login/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 3,
+        "endLine": 3,
+        "startCharacter": 15,
+        "endCharacter": 47
+      }
+    },
+    {
+      "name": "@mantine/core",
+      "source": "src/app/auth/login/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 4,
+        "endLine": 4,
+        "startCharacter": 49,
+        "endCharacter": 181
+      }
+    },
+    {
+      "name": "next/navigation",
+      "source": "src/app/auth/login/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 5,
+        "endLine": 5,
+        "startCharacter": 183,
+        "endCharacter": 226
+      }
+    },
+    {
+      "name": "next/link",
+      "source": "src/app/auth/login/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 6,
+        "endLine": 6,
+        "startCharacter": 228,
+        "endCharacter": 256
+      }
+    },
+    {
+      "name": "@/services/auth/AuthProvider",
+      "source": "src/app/auth/login/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 7,
+        "endLine": 7,
+        "startCharacter": 258,
+        "endCharacter": 312
       }
     }
   ],
