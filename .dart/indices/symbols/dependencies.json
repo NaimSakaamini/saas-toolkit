@@ -2264,129 +2264,6 @@
       }
     }
   ],
-  "src/app/dashboard/settings/organization/page.tsx": [
-    {
-      "name": "react",
-      "source": "src/app/dashboard/settings/organization/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 3,
-        "endLine": 3,
-        "startCharacter": 15,
-        "endCharacter": 58
-      }
-    },
-    {
-      "name": "@mantine/core",
-      "source": "src/app/dashboard/settings/organization/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 4,
-        "endLine": 4,
-        "startCharacter": 60,
-        "endCharacter": 324
-      }
-    },
-    {
-      "name": "@tabler/icons-react",
-      "source": "src/app/dashboard/settings/organization/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 27,
-        "endLine": 27,
-        "startCharacter": 326,
-        "endCharacter": 537
-      }
-    },
-    {
-      "name": "@/components/dashboard/DashboardLayout",
-      "source": "src/app/dashboard/settings/organization/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 40,
-        "endLine": 40,
-        "startCharacter": 539,
-        "endCharacter": 611
-      }
-    },
-    {
-      "name": "@/services/auth/ProtectedRoute",
-      "source": "src/app/dashboard/settings/organization/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 41,
-        "endLine": 41,
-        "startCharacter": 613,
-        "endCharacter": 676
-      }
-    },
-    {
-      "name": "@/services/organization/OrganizationProvider",
-      "source": "src/app/dashboard/settings/organization/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 42,
-        "endLine": 42,
-        "startCharacter": 678,
-        "endCharacter": 756
-      }
-    },
-    {
-      "name": "@/services/organization/organizationService",
-      "source": "src/app/dashboard/settings/organization/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 43,
-        "endLine": 43,
-        "startCharacter": 758,
-        "endCharacter": 838
-      }
-    },
-    {
-      "name": "@/services/auth/AuthProvider",
-      "source": "src/app/dashboard/settings/organization/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 44,
-        "endLine": 44,
-        "startCharacter": 840,
-        "endCharacter": 894
-      }
-    },
-    {
-      "name": "@/components/organization/CreateOrganizationForm",
-      "source": "src/app/dashboard/settings/organization/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 45,
-        "endLine": 45,
-        "startCharacter": 896,
-        "endCharacter": 985
-      }
-    },
-    {
-      "name": "@/components/invitation/InviteUserForm",
-      "source": "src/app/dashboard/settings/organization/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 46,
-        "endLine": 46,
-        "startCharacter": 987,
-        "endCharacter": 1058
-      }
-    },
-    {
-      "name": "@/components/invitation/InvitationList",
-      "source": "src/app/dashboard/settings/organization/page.tsx",
-      "kind": "import",
-      "location": {
-        "startLine": 47,
-        "endLine": 47,
-        "startCharacter": 1060,
-        "endCharacter": 1131
-      }
-    }
-  ],
   "src/app/dashboard/settings/notifications/page.tsx": [
     {
       "name": "react",
@@ -2542,6 +2419,129 @@
         "endLine": 23,
         "startCharacter": 625,
         "endCharacter": 694
+      }
+    }
+  ],
+  "src/app/dashboard/settings/organization/page.tsx": [
+    {
+      "name": "react",
+      "source": "src/app/dashboard/settings/organization/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 3,
+        "endLine": 3,
+        "startCharacter": 15,
+        "endCharacter": 58
+      }
+    },
+    {
+      "name": "@mantine/core",
+      "source": "src/app/dashboard/settings/organization/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 4,
+        "endLine": 4,
+        "startCharacter": 60,
+        "endCharacter": 324
+      }
+    },
+    {
+      "name": "@tabler/icons-react",
+      "source": "src/app/dashboard/settings/organization/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 27,
+        "endLine": 27,
+        "startCharacter": 326,
+        "endCharacter": 537
+      }
+    },
+    {
+      "name": "@/components/dashboard/DashboardLayout",
+      "source": "src/app/dashboard/settings/organization/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 40,
+        "endLine": 40,
+        "startCharacter": 539,
+        "endCharacter": 611
+      }
+    },
+    {
+      "name": "@/services/auth/ProtectedRoute",
+      "source": "src/app/dashboard/settings/organization/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 41,
+        "endLine": 41,
+        "startCharacter": 613,
+        "endCharacter": 676
+      }
+    },
+    {
+      "name": "@/services/organization/OrganizationProvider",
+      "source": "src/app/dashboard/settings/organization/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 42,
+        "endLine": 42,
+        "startCharacter": 678,
+        "endCharacter": 756
+      }
+    },
+    {
+      "name": "@/services/organization/organizationService",
+      "source": "src/app/dashboard/settings/organization/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 43,
+        "endLine": 43,
+        "startCharacter": 758,
+        "endCharacter": 838
+      }
+    },
+    {
+      "name": "@/services/auth/AuthProvider",
+      "source": "src/app/dashboard/settings/organization/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 44,
+        "endLine": 44,
+        "startCharacter": 840,
+        "endCharacter": 894
+      }
+    },
+    {
+      "name": "@/components/organization/CreateOrganizationForm",
+      "source": "src/app/dashboard/settings/organization/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 45,
+        "endLine": 45,
+        "startCharacter": 896,
+        "endCharacter": 985
+      }
+    },
+    {
+      "name": "@/components/invitation/InviteUserForm",
+      "source": "src/app/dashboard/settings/organization/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 46,
+        "endLine": 46,
+        "startCharacter": 987,
+        "endCharacter": 1058
+      }
+    },
+    {
+      "name": "@/components/invitation/InvitationList",
+      "source": "src/app/dashboard/settings/organization/page.tsx",
+      "kind": "import",
+      "location": {
+        "startLine": 47,
+        "endLine": 47,
+        "startCharacter": 1060,
+        "endCharacter": 1131
       }
     }
   ],
