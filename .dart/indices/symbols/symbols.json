@@ -2943,20 +2943,6 @@
       }
     }
   ],
-  "src/app/profile/page.tsx": [
-    {
-      "name": "ProfilePage",
-      "kind": "function",
-      "path": "src/app/profile/page.tsx",
-      "location": {
-        "filePath": "src/app/profile/page.tsx",
-        "startLine": 10,
-        "endLine": 10,
-        "startCharacter": 1,
-        "endCharacter": 12
-      }
-    }
-  ],
   "src/app/pricing/page.tsx": [
     {
       "name": "PricingPage",
@@ -2992,6 +2978,20 @@
         "endLine": 80,
         "startCharacter": 1,
         "endCharacter": 9
+      }
+    }
+  ],
+  "src/app/profile/page.tsx": [
+    {
+      "name": "ProfilePage",
+      "kind": "function",
+      "path": "src/app/profile/page.tsx",
+      "location": {
+        "filePath": "src/app/profile/page.tsx",
+        "startLine": 10,
+        "endLine": 10,
+        "startCharacter": 1,
+        "endCharacter": 12
       }
     }
   ],
