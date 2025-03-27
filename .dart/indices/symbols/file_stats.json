@@ -251,6 +251,11 @@
       "size": 3170,
       "type": "tsx"
     },
+    "src/app/dashboard/organizations/new/page.tsx": {
+      "path": "src/app/dashboard/organizations/new/page.tsx",
+      "size": 1115,
+      "type": "tsx"
+    },
     "src/app/dashboard/settings/profile/page.tsx": {
       "path": "src/app/dashboard/settings/profile/page.tsx",
       "size": 8695,
@@ -269,11 +274,6 @@
     "src/app/dashboard/settings/billing/page.tsx": {
       "path": "src/app/dashboard/settings/billing/page.tsx",
       "size": 2269,
-      "type": "tsx"
-    },
-    "src/app/dashboard/organizations/new/page.tsx": {
-      "path": "src/app/dashboard/organizations/new/page.tsx",
-      "size": 1115,
       "type": "tsx"
     },
     "src/app/dashboard/settings/billing/payment-methods/page.tsx": {
