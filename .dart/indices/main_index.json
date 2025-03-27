@@ -1,0 +1,234 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2025-03-27T02:35:57.528Z",
+  "fileCount": 55,
+  "files": {
+    "next.config.ts": {
+      "size": 133,
+      "language": "ts"
+    },
+    "scripts/setup-subscription-collections.js": {
+      "size": 3838,
+      "language": "js"
+    },
+    "src/app/page.tsx": {
+      "size": 695,
+      "language": "tsx"
+    },
+    "src/app/layout.tsx": {
+      "size": 1485,
+      "language": "tsx"
+    },
+    "src/services/subscription/subscriptionService.ts": {
+      "size": 15340,
+      "language": "ts"
+    },
+    "src/services/subscription/SubscriptionProvider.tsx": {
+      "size": 11087,
+      "language": "tsx"
+    },
+    "src/services/organization/organizationService.ts": {
+      "size": 10052,
+      "language": "ts"
+    },
+    "src/services/organization/OrganizationProvider.tsx": {
+      "size": 8502,
+      "language": "tsx"
+    },
+    "src/services/invitation/invitationService.ts": {
+      "size": 10658,
+      "language": "ts"
+    },
+    "src/services/invitation/InvitationProvider.tsx": {
+      "size": 8254,
+      "language": "tsx"
+    },
+    "src/services/firebase/config.ts": {
+      "size": 4050,
+      "language": "ts"
+    },
+    "src/services/firebase/FirebaseProvider.tsx": {
+      "size": 1561,
+      "language": "tsx"
+    },
+    "src/services/auth/sessionService.ts": {
+      "size": 7797,
+      "language": "ts"
+    },
+    "src/services/auth/authService.ts": {
+      "size": 6837,
+      "language": "ts"
+    },
+    "src/services/auth/ProtectedRoute.tsx": {
+      "size": 1078,
+      "language": "tsx"
+    },
+    "src/services/auth/AuthProvider.tsx": {
+      "size": 8830,
+      "language": "tsx"
+    },
+    "src/components/ui/ThemeProvider.tsx": {
+      "size": 2702,
+      "language": "tsx"
+    },
+    "src/components/ui/SessionManager.tsx": {
+      "size": 4287,
+      "language": "tsx"
+    },
+    "src/components/ui/MantineProvider.tsx": {
+      "size": 776,
+      "language": "tsx"
+    },
+    "src/components/ui/ClientThemeProvider.tsx": {
+      "size": 807,
+      "language": "tsx"
+    },
+    "src/components/subscription/UsageDisplay.tsx": {
+      "size": 4715,
+      "language": "tsx"
+    },
+    "src/components/subscription/SubscriptionManager.tsx": {
+      "size": 13780,
+      "language": "tsx"
+    },
+    "src/components/subscription/PaymentMethodManager.tsx": {
+      "size": 14006,
+      "language": "tsx"
+    },
+    "src/components/subscription/InvoiceList.tsx": {
+      "size": 5573,
+      "language": "tsx"
+    },
+    "src/components/organization/OrganizationSelector.tsx": {
+      "size": 3196,
+      "language": "tsx"
+    },
+    "src/components/organization/CreateOrganizationForm.tsx": {
+      "size": 3210,
+      "language": "tsx"
+    },
+    "src/components/layout/AppLayout.tsx": {
+      "size": 4928,
+      "language": "tsx"
+    },
+    "src/components/landing/PricingTable.tsx": {
+      "size": 7953,
+      "language": "tsx"
+    },
+    "src/components/landing/PricingSection.tsx": {
+      "size": 4244,
+      "language": "tsx"
+    },
+    "src/components/landing/Hero.tsx": {
+      "size": 5607,
+      "language": "tsx"
+    },
+    "src/components/landing/Footer.tsx": {
+      "size": 4012,
+      "language": "tsx"
+    },
+    "src/components/landing/FeatureShowcase.tsx": {
+      "size": 5897,
+      "language": "tsx"
+    },
+    "src/components/landing/FaqAccordion.tsx": {
+      "size": 3342,
+      "language": "tsx"
+    },
+    "src/components/landing/CallToAction.tsx": {
+      "size": 2809,
+      "language": "tsx"
+    },
+    "src/components/invitation/InviteUserForm.tsx": {
+      "size": 3282,
+      "language": "tsx"
+    },
+    "src/components/invitation/InvitationList.tsx": {
+      "size": 6399,
+      "language": "tsx"
+    },
+    "src/components/dashboard/SubscriptionWidget.tsx": {
+      "size": 5337,
+      "language": "tsx"
+    },
+    "src/components/dashboard/DashboardLayout.tsx": {
+      "size": 12490,
+      "language": "tsx"
+    },
+    "src/app/profile/page.tsx": {
+      "size": 5098,
+      "language": "tsx"
+    },
+    "src/app/pricing/page.tsx": {
+      "size": 5790,
+      "language": "tsx"
+    },
+    "src/app/dashboard/page.tsx": {
+      "size": 7143,
+      "language": "tsx"
+    },
+    "src/app/checkout/page.tsx": {
+      "size": 15000,
+      "language": "tsx"
+    },
+    "src/app/profile/sessions/page.tsx": {
+      "size": 742,
+      "language": "tsx"
+    },
+    "src/app/invitation/[token]/page.tsx": {
+      "size": 6718,
+      "language": "tsx"
+    },
+    "src/app/dashboard/settings/page.tsx": {
+      "size": 2738,
+      "language": "tsx"
+    },
+    "src/app/dashboard/invitations/page.tsx": {
+      "size": 1462,
+      "language": "tsx"
+    },
+    "src/app/auth/register/page.tsx": {
+      "size": 5246,
+      "language": "tsx"
+    },
+    "src/app/auth/login/page.tsx": {
+      "size": 3963,
+      "language": "tsx"
+    },
+    "src/app/auth/forgot-password/page.tsx": {
+      "size": 3170,
+      "language": "tsx"
+    },
+    "src/app/dashboard/settings/profile/page.tsx": {
+      "size": 8695,
+      "language": "tsx"
+    },
+    "src/app/dashboard/settings/organization/page.tsx": {
+      "size": 15443,
+      "language": "tsx"
+    },
+    "src/app/dashboard/settings/notifications/page.tsx": {
+      "size": 7382,
+      "language": "tsx"
+    },
+    "src/app/dashboard/settings/billing/page.tsx": {
+      "size": 2269,
+      "language": "tsx"
+    },
+    "src/app/dashboard/organizations/new/page.tsx": {
+      "size": 1115,
+      "language": "tsx"
+    },
+    "src/app/dashboard/settings/billing/payment-methods/page.tsx": {
+      "size": 1264,
+      "language": "tsx"
+    }
+  },
+  "fileTypes": {
+    "ts": 7,
+    "js": 1,
+    "tsx": 47
+  },
+  "symbolCount": 280,
+  "dependencyCount": 235
+}
