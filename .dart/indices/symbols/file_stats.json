@@ -241,14 +241,14 @@
       "size": 5246,
       "type": "tsx"
     },
-    "src/app/auth/forgot-password/page.tsx": {
-      "path": "src/app/auth/forgot-password/page.tsx",
-      "size": 3170,
-      "type": "tsx"
-    },
     "src/app/auth/login/page.tsx": {
       "path": "src/app/auth/login/page.tsx",
       "size": 3963,
+      "type": "tsx"
+    },
+    "src/app/auth/forgot-password/page.tsx": {
+      "path": "src/app/auth/forgot-password/page.tsx",
+      "size": 3170,
       "type": "tsx"
     },
     "src/app/dashboard/settings/profile/page.tsx": {
@@ -256,14 +256,14 @@
       "size": 8695,
       "type": "tsx"
     },
-    "src/app/dashboard/settings/notifications/page.tsx": {
-      "path": "src/app/dashboard/settings/notifications/page.tsx",
-      "size": 7382,
-      "type": "tsx"
-    },
     "src/app/dashboard/settings/organization/page.tsx": {
       "path": "src/app/dashboard/settings/organization/page.tsx",
       "size": 15443,
+      "type": "tsx"
+    },
+    "src/app/dashboard/settings/notifications/page.tsx": {
+      "path": "src/app/dashboard/settings/notifications/page.tsx",
+      "size": 7382,
       "type": "tsx"
     },
     "src/app/dashboard/settings/billing/page.tsx": {
