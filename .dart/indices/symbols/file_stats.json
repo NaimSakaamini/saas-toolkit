@@ -256,14 +256,14 @@
       "size": 8695,
       "type": "tsx"
     },
-    "src/app/dashboard/settings/organization/page.tsx": {
-      "path": "src/app/dashboard/settings/organization/page.tsx",
-      "size": 15443,
-      "type": "tsx"
-    },
     "src/app/dashboard/settings/notifications/page.tsx": {
       "path": "src/app/dashboard/settings/notifications/page.tsx",
       "size": 7382,
+      "type": "tsx"
+    },
+    "src/app/dashboard/settings/organization/page.tsx": {
+      "path": "src/app/dashboard/settings/organization/page.tsx",
+      "size": 15443,
       "type": "tsx"
     },
     "src/app/dashboard/settings/billing/page.tsx": {
