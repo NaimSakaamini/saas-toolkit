@@ -226,14 +226,14 @@
       "size": 6718,
       "type": "tsx"
     },
-    "src/app/dashboard/invitations/page.tsx": {
-      "path": "src/app/dashboard/invitations/page.tsx",
-      "size": 1462,
-      "type": "tsx"
-    },
     "src/app/dashboard/settings/page.tsx": {
       "path": "src/app/dashboard/settings/page.tsx",
       "size": 2738,
+      "type": "tsx"
+    },
+    "src/app/dashboard/invitations/page.tsx": {
+      "path": "src/app/dashboard/invitations/page.tsx",
+      "size": 1462,
       "type": "tsx"
     },
     "src/app/auth/register/page.tsx": {
@@ -249,11 +249,6 @@
     "src/app/auth/forgot-password/page.tsx": {
       "path": "src/app/auth/forgot-password/page.tsx",
       "size": 3170,
-      "type": "tsx"
-    },
-    "src/app/dashboard/organizations/new/page.tsx": {
-      "path": "src/app/dashboard/organizations/new/page.tsx",
-      "size": 1115,
       "type": "tsx"
     },
     "src/app/dashboard/settings/profile/page.tsx": {
@@ -274,6 +269,11 @@
     "src/app/dashboard/settings/billing/page.tsx": {
       "path": "src/app/dashboard/settings/billing/page.tsx",
       "size": 2269,
+      "type": "tsx"
+    },
+    "src/app/dashboard/organizations/new/page.tsx": {
+      "path": "src/app/dashboard/organizations/new/page.tsx",
+      "size": 1115,
       "type": "tsx"
     },
     "src/app/dashboard/settings/billing/payment-methods/page.tsx": {
