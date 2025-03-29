@@ -37,7 +37,48 @@ export function InviteUserForm({ showTitle = true, onSuccess }: InviteUserFormPr
       const callbacks: InvitationServiceCallbacks = {
         onInvitationCreated: (invitation) => {
           console.log('Invitation created:', invitation);
-          // In a real app, you would send an email here
+          
+          // Track analytics event
+          try {
+            if (window.analytics) {
+              window.analytics.track('Invitation Sent', {
+                inviteeEmail: invitation.email,
+                role: invitation.role,
+                timestamp: new Date().toISOString(),
+              });
+            }
+          } catch (error) {
+            console.error('Failed to track analytics event:', error);
+          }
+          
+          // Send notification to admin channel
+          notifyAdminChannel(invitation);
+          
+          // Schedule reminder if invitation not accepted in 3 days
+          scheduleReminderEmail(invitation.id, invitation.email);
+          
+          // Show success message
+          setSuccess(true);
+          
+          // Clear form
+          setEmail('');
+          setRole('member');
+          
+          // Call onSuccess callback if provided
+          if (onSuccess) {
+            onSuccess(email);
+          }
+          
+          // Hide success message after 3 seconds
+          setTimeout(() => {
+            setSuccess(false);
+          }, 3000);
+        },
+        
+        onError: (error) => {
+          console.error('Invitation failed:', error);
+          // Log error to monitoring system
+          logErrorToMonitoring('invitation_failure', error);
         }
       };
       
@@ -49,23 +90,6 @@ export function InviteUserForm({ showTitle = true, onSuccess }: InviteUserFormPr
         },
         callbacks
       );
-      
-      // Show success message
-      setSuccess(true);
-      
-      // Clear form
-      setEmail('');
-      setRole('member');
-      
-      // Call onSuccess callback if provided
-      if (onSuccess) {
-        onSuccess(email);
-      }
-      
-      // Hide success message after 3 seconds
-      setTimeout(() => {
-        setSuccess(false);
-      }, 3000);
     } catch (error) {
       console.error('Error inviting user:', error);
     }
